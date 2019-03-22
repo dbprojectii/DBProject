@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1" fx:controller="application.MainController">
+   <children>
+      <Button fx:id="customer" layoutX="96.0" layoutY="237.0" mnemonicParsing="false" onAction="#customer" prefHeight="25.0" prefWidth="307.0" text="CUSTOMER" />
+      <Button fx:id="worker" layoutX="96.0" layoutY="316.0" mnemonicParsing="false" onAction="#worker" prefHeight="25.0" prefWidth="307.0" text="WORKER" />
+      <Button fx:id="employee" layoutX="96.0" layoutY="394.0" mnemonicParsing="false" onAction="#employee" prefHeight="25.0" prefWidth="307.0" text="EMPLOYEE" />
+      <Label layoutX="96.0" layoutY="154.0" prefHeight="17.0" prefWidth="307.0" text="  WELCOME" textFill="#cf0c0c">
+         <font>
+            <Font name="Arial Bold" size="48.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="150.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Desktop/Okul/2.%20Sınıf/Ödevler-Projeler/2.Dönem/Database%20Systems-II/indir.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

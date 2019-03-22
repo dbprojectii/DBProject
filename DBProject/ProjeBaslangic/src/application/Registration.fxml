@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="248.0" prefWidth="300.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1" fx:controller="application.Registration">
+   <children>
+      <TextField fx:id="name" layoutX="14.0" layoutY="14.0" prefHeight="25.0" prefWidth="271.0" promptText="Name" />
+      <TextField fx:id="surname" layoutX="14.0" layoutY="48.0" prefHeight="25.0" prefWidth="271.0" promptText="SurName" />
+      <TextField fx:id="mail" layoutX="14.0" layoutY="85.0" prefHeight="25.0" prefWidth="271.0" promptText="e-mail address" />
+      <TextField fx:id="username" layoutX="14.0" layoutY="124.0" prefHeight="25.0" prefWidth="271.0" promptText="UserName" />
+      <PasswordField fx:id="password" layoutX="14.0" layoutY="162.0" prefHeight="25.0" prefWidth="271.0" promptText="Password" />
+      <Button fx:id="completed" layoutX="14.0" layoutY="204.0" mnemonicParsing="false" onAction="#completed" prefHeight="25.0" prefWidth="271.0" text="Completed" />
+   </children>
+</AnchorPane>

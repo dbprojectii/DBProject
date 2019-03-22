@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="200.0" prefWidth="200.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1">
+   <children>
+      <ImageView fitHeight="93.0" fitWidth="121.0" layoutX="53.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Desktop/Okul/2.%20Sınıf/Ödevler-Projeler/2.Dönem/Database%20Systems-II/1-37-512.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="22.0" layoutY="118.0" prefHeight="17.0" prefWidth="157.0" text="Your informations are saved.">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="22.0" layoutY="151.0" prefHeight="20.0" prefWidth="157.0" text="Registration completed.">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
